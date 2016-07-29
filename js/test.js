@@ -100,7 +100,7 @@ var permutation = function(object){
     for (var i=0; i<object.remainder.length; i++){
         //create a copy of the remainder array and store it in the temp variable
         var temp = object.remainder.slice();
-        //remove the first element of the copied remainder array and store it in the store variable
+        //remove the element at index i of the copied remainder array and store it in the store variable, creating new branches
         var store = temp.splice(i, 1);
         //instantiate a new data store object which stores the element just spliced off at this node of the tree
         //put the remaining array elements into the 'remaining' property
