@@ -79,7 +79,7 @@ var magicSquare = function(results) {
 //the object argument to begin with is the 'data' object
 var permutation = function(object){
 
-    //
+    //this is an array to store the node values when traversing from the bottom to the top of the permuation tree
     var output = [];
 
     //check to see if the object passed into the function has any remaining elements to be pushed into a tree or not
@@ -87,7 +87,7 @@ var permutation = function(object){
     if (object.remainder.length===0){
         //were now at the bottom of the tree, so we need to 'read off' all the nodes back to the top by calling printResults()
         printResults(object, output);
-        //once the tree has been traversed back to the top, store the array of node values in the 'final' results array
+        //once the tree has been traversed back to the top, store the array of node values for that particular path to the top in the 'final' results array
         final.push(output);
         //check to see if we have the correct number of elements of the final array (which is the total number of permutations of the input array)
         if(final.length === perms) {
