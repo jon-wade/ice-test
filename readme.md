@@ -1,4 +1,4 @@
-#ICE 'Magic Square' Technical Test Solution
+#'Magic Square' Technical Test Solution
 Final version of the JS to work out all possible 3x3 'magic squares', fully commented for ease of understanding.
 
 ##Console Output
