@@ -1,5 +1,5 @@
 #'Magic Square' Technical Test Solution
-Final version of the JS to work out all possible 3x3 'magic squares', fully commented for ease of understanding.
+Final version of the JavaScript code to work out all possible 3x3 'magic squares', fully commented for ease of understanding.
 
 ##Console Output
 `magic square =  [ 8, 3, 4, 1, 5, 9, 6, 7, 2 ]
